@@ -120,6 +120,45 @@
 #p11{     background-color: rgb(0, 255, 0);  opacity: 0.3; }
 #p12{     background-color: rgb(0, 0, 255);  opacity: 0.3; }
 
+#textshadow1{
+    text-shadow: 1px 1px;
+}
+#textshadow2{
+    text-shadow: 1px 1px 10px #000000;
+    color: white;
+}
+#textshadow3{
+    text-shadow: 1px 1px 0px #000000, 65px 35px 0.3px #bdb6b6;
+}
+#textshadow4{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #14D61A, 0 0 5px darkblue;
+}
+div.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);    
+}
+#imgCard{
+    width: 50px;
+    height: 144.70px;
+}
+div.header2{
+    border: 2px solid gray;
+    background-color: rgba(231, 209, 209, 0.5); opacity: 0.8;
+}
+
+div.header1{
+    background-color: #00FF7E;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border: 2px solid gray;
+}
+div.container{
+    padding:  5px;
+    border: 2px solid black;
+}
+
+
 #grad1 {
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(rgb(51, 177, 251), #00FF7E); /* For Safari 5.1 to 6.0 */
