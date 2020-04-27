@@ -28,4 +28,4 @@ function start(){
             ny=0;
         }
     }
-}s
+}

@@ -449,3 +449,90 @@ div.container{
     
 
 }
+.element1{
+    width: 250px;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #3D647F;
+    -webkit-transition:background-color 2s, width 3s;
+    transition: background-color 2s, width 3s ;
+}
+.transition1{
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+.transition2{
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+.transition3{
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+.transition4{
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.transition5{
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.transition6{
+    -webkit-transition-timing-function: cubic-bezier(1,0,1,0);
+    transition-timing-function: cubic-bezier(0.4,2,0.2,1);
+}
+.transition7{
+    -webkit-transition-delay: 3s;
+    transition-delay: 3s;
+}
+
+.element1:hover{
+    width: 500px;
+    background-color: #0793F3;
+}
+.element2{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #3D647F;
+    color: white;
+    -webkit-transition: width 4s, height 4s, webkit-transform 4s; /* Safari */
+    transition:  width 5s, height 5s, transform 5s;
+}
+.element2:hover{
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+
+
+.player{
+    position: relative;
+}
+.player-body{
+    width: 0;
+    height: 0;
+    border-right: 61px solid transparent;
+    border-top: 92px solid #39A045;
+    border-left: 61px solid #39A045;
+    border-bottom: 27px solid #39A045;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 139px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.player-eye{
+    position: absolute;
+    left: 72px;
+    top: 27px;
+    border-radius: 100%; 
+    background-color: black;
+    width: 23px;
+}
